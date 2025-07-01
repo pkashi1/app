@@ -30,7 +30,7 @@ jobs:
           action: "upload"
 
           ###### Repository/Build Configurations ######
-          app_location: "app"        # <— where your Next.js app actually lives
+          app_location: "../app"        # <— where your Next.js app actually lives
           api_location: ""           # <— no Azure Functions in this repo
           output_location: "app/out" # <— Next.js export output
           ###### End of Repository/Build Configurations ######
